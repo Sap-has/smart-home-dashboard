@@ -1,0 +1,14 @@
+{
+    "light": {
+        "status": "Off"
+    },
+    "thermostat": {
+        "temperature": 72
+    },
+    "door-locks": {
+        "status": "locked"
+    },
+    "security-cameras": {
+        "status": "on"
+    }
+}
