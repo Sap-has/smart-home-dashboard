@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Smart Home Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Smart Home Dashboard</h1>
+
+    <div class="device-control">
+        <h2>Living Room Light</h2>
+        <button id="light-toggle">Toggle Light</button>
+        <p>Status: <span id="light-status">Off</span></p>
+    </div>
+
+    <div class="device-control">
+        <h2>Thermostat</h2>
+        <input type="range" id="temp-control" min="60" max="80" step="1">
+        <p>Temperature: <span id="temp-status">72</span> °F</p>
+    </div>
+
+    <!-- Add 2 more items for the last 2 devices -->
+     
+    <script src="script.js"></script>
 </body>
 </html>
